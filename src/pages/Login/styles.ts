@@ -14,6 +14,8 @@ export const Container = styled.div`
 export const LoginContainer = styled.div`
     width: 100%;
     max-width: 420px;
+    box-shadow: 2px 2px 4px #25252525;
+    border: .2rem solid #fafafa30;
     background-color: #FFFFFF;
 
     border-radius: 8px;
@@ -28,7 +30,7 @@ export const LoginContainer = styled.div`
 export const Title = styled.h1`
     font-size: 42px;
     font-weight: 700;
-    color: #81259D;
+    color: #35c597;
 `
 
 export const Row = styled.div`
